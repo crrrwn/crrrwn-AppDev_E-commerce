@@ -1,18 +1,27 @@
 const main = {
-     home: (req,res) => {
+    home: (req,res) => {
         res.render('home');
-    }
-//     adarlo: (req,res) => {
-//         res.render('adarlo');
-//     },
-//     kaye: (req,res) => {
-//         res.render('kaye');
-//     },
-//     ann: (req,res) => {
-//         res.render('ann');
-//     },
-//     gida: (req,res) => {
-//         res.render('gida');
-//     },
+    },
+    about: (req,res) => {
+        res.render('about');
+    },
+    blog2: (req,res) => {
+        res.render('blog2');
+    },
+    contact: (req,res) => {
+        res.render('contact');
+    },
+    features: (req,res) => {
+        res.render('features');
+    },
+    product: (req,res) => {
+        res.render('product');
+    },
+    testimonial: (req,res) => {
+        res.render('testimonial');
+    },
+
+
+
 }
 module.exports = main;
